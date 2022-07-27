@@ -92,7 +92,7 @@ if conectaWifi ("Manitas", "Splunk5*"):
         activate = runSensor()
         thingSpeak(activate)
 
-        if activate >= 300:
+        if activate >= 350:
             buzzer.freq(1047)
             buzzer.duty(50)
             oled.fill(0)
