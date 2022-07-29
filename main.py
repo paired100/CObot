@@ -1,9 +1,9 @@
-import wifi
-import sensores
-import notification
-import thingspeak
-import writesheet
-import rgb
+import lib.wifi
+import lib.sensores
+import lib.notification
+import lib.thingspeak
+import lib.writesheet
+import lib.rgb
 import machine
 from machine import Pin , I2C, ADC
 from ssd1306 import SSD1306_I2C
